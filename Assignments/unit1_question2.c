@@ -1,3 +1,9 @@
+/* A teacher wants to arrange student marks in ascending order and also measure how much 
+rearrangement is necessary. Write a C program using Insertion Sort that accepts n marks, displays 
+the array after every pass, counts the total number of element shifts, and displays the final sorted 
+list and shift count.  */
+
+
 #include<stdio.h>
 int main()
 {
