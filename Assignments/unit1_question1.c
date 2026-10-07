@@ -1,3 +1,9 @@
+/*  A company stores employee IDs in ascending order. Write a C program that accepts n employee 
+IDs, searches for a required ID using Binary Search, displays its position when found, reports 
+when it is absent, and counts the number of comparisons. Test the program for both successful 
+and unsuccessful searches. */
+
+
 #include<stdio.h>
 int main()
 {
