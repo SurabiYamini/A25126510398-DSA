@@ -12,12 +12,10 @@ int main()
 
     int hash_table[n];
 
-    // Initialize array
     for(i = 0; i < n; i++)
         hash_table[i] = -1;
 
-    // Insert k keys
-    for(i = 0; i < k; i++)
+   for(i = 0; i < k; i++)
     {
         printf("Enter key: ");
         scanf("%d", &key);
@@ -34,7 +32,6 @@ int main()
         }
     }
 
-    // Display hash table
     printf("\nHash Table:\n");
     for(i = 0; i < n; i++)
     {
